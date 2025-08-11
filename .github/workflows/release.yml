@@ -82,7 +82,7 @@ jobs:
                       ## Quick Start
 
                       Add to your `docusaurus.config.js`:
-                      ```javascript
+                      ```js
                       module.exports = {
                         plugins: [
                           ['docusaurus-plugin-cookie-consent', {

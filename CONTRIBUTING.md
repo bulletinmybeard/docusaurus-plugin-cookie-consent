@@ -91,7 +91,7 @@ npm link docusaurus-plugin-cookie-consent
 
 6. Add the plugin to your `docusaurus.config.js`:
 
-```javascript
+```js
 module.exports = {
   plugins: ['docusaurus-plugin-cookie-consent']
 };
@@ -289,7 +289,7 @@ npm link ../path/to/docusaurus-plugin-cookie-consent
 
 3. Add to `docusaurus.config.js`:
 
-```javascript
+```js
 plugins: [
   ['docusaurus-plugin-cookie-consent', {
     providers: [
@@ -332,7 +332,7 @@ npm start
 
 1. Create a new translation file:
 
-```typescript
+```js
 // src/translations/fr.ts
 import type { CookieConsentTranslations } from '../plugin/types';
 
@@ -356,7 +356,7 @@ export const fr: CookieConsentTranslations = {
 
 2. Export from translations index:
 
-```typescript
+```js
 // src/translations/index.ts
 export { en } from './en';
 export { de } from './de';
@@ -444,7 +444,7 @@ The client API module provides programmatic access to consent status without req
 When adding new functions to the client API:
 
 1. **Add to CookieConsentClient class** (`src/client/index.ts`):
-   ```typescript
+   ```js
    class CookieConsentClient {
      myNewFunction(): ReturnType {
        // Implementation
@@ -453,14 +453,14 @@ When adding new functions to the client API:
    ```
 
 2. **Export as convenience function**:
-   ```typescript
+   ```js
    export const myNewFunction = () => cookieConsent.myNewFunction();
    ```
 
 3. **Add TypeScript types** if needed
 
 4. **Create React hook** if appropriate (`src/client/hooks.ts`):
-   ```typescript
+   ```js
    export function useMyNewFeature() {
      // Hook implementation
    }
@@ -478,7 +478,7 @@ npm test src/client/__tests__
 ```
 
 Test in a Docusaurus project:
-```javascript
+```js
 import { getConsentStatus } from 'docusaurus-plugin-cookie-consent/client';
 
 console.log('Consent:', getConsentStatus());
@@ -599,7 +599,7 @@ This error typically occurs when the plugin exports a `validateOptions` function
 **Solution:**
 Remove or comment out the `validateOptions` export from `src/plugin/index.ts`:
 
-```typescript
+```js
 // DON'T export validateOptions unless it matches Docusaurus's API
 // module.exports.validateOptions = validateOptions;  // ❌ Remove this
 ```

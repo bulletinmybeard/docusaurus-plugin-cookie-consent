@@ -42,7 +42,7 @@ Paste console errors here
 **Plugin Configuration**
 Please share your plugin configuration from `docusaurus.config.js`:
 
-```javascript
+```js
 // Paste your plugin config here
 ['docusaurus-plugin-cookie-consent', {
   // your config
