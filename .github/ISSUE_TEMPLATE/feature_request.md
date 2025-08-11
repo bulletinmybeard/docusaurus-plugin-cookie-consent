@@ -29,7 +29,7 @@ Provide a concrete example of when you would use this feature:
 **Proposed configuration**
 If applicable, show how you imagine configuring this feature:
 
-```javascript
+```js
 ['docusaurus-plugin-cookie-consent', {
   // Your proposed config
 }]

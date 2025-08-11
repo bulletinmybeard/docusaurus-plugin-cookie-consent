@@ -34,7 +34,7 @@ Help me understand your situation better:
 **Current configuration**
 If relevant, share your current plugin configuration:
 
-```javascript
+```js
 ['docusaurus-plugin-cookie-consent', {
   // Your current config
 }]
