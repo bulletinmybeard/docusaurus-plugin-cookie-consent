@@ -1,0 +1,59 @@
+# Source files
+src/
+*.ts
+!*.d.ts
+
+# Development files
+.gitignore
+.eslintrc*
+.prettierrc*
+eslint.config.js
+tsconfig.json
+tsconfig.test.json
+jest.config.js
+jest.setup.js
+
+# Documentation source
+docs/
+examples/
+
+# Testing
+coverage/
+__tests__/
+__mocks__/
+*.test.*
+*.spec.*
+
+# GitHub
+.github/
+
+# Project management
+CLAUDE.md
+CHANGELOG.md.backup
+CODEOWNERS
+CONTRIBUTING.md
+MAINTAINER.md
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary
+*.tmp
+*.log
+*.swp
+*.swo
+*~
+
+# Build artifacts (keep dist)
+# dist/ is needed for npm package
+
+# Keep these files
+!dist/**/*.d.ts
+!README.md
+!LICENSE
+!CHANGELOG.md

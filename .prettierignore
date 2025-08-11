@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Production
+dist/
+build/
+*.tgz
+
+# Package files
+package-lock.json
+
+# OS
+.DS_Store
+*.log
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+templates/**/*.mdx
