@@ -5,6 +5,10 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow)](./LICENSE)
 [![NPM Downloads](https://img.shields.io/npm/dm/docusaurus-plugin-cookie-consent)](https://www.npmjs.com/package/docusaurus-plugin-cookie-consent)
 [![Docusaurus](https://img.shields.io/badge/Docusaurus-3.0%2B-green)](https://docusaurus.io/)
+[![Node](https://img.shields.io/badge/Node-18.0%2B-339933?logo=node.js)](https://nodejs.org/)
+[![React](https://img.shields.io/badge/React-18%20%7C%2019-61DAFB?logo=react)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.5%2B-blue)](https://www.typescriptlang.org/)
+[![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)](https://prettier.io/)
 
 GDPR-compliant cookie consent plugin for Docusaurus - no configuration required!
 
@@ -155,7 +159,7 @@ See [FAQ](./docs/FAQ.md) for more questions.
 - Node.js 18.0+  
 - React 18 or 19
 
-## 🤝 Support & Contributing
+## Support & Contributing
 
 - [Documentation](./docs/) - Comprehensive guides
 - [Report Issues](https://github.com/bulletinmybeard/docusaurus-plugin-cookie-consent/issues)
